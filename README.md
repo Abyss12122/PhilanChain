@@ -2,7 +2,7 @@
 
 A fully decentralized, transparent, and secure crowdfunding platform built on the Ethereum blockchain. PhilanChain leverages smart contracts to solve the "trust gap" in traditional charity, giving donors full control and transparency over how their contributions are used.
 
-> [🌐 **https://philan-chain.vercel.app/**](#) <!-- TODO: Add your live Vercel/Netlify deployment link -->
+> 🌐 **https://philan-chain.vercel.app/** <!-- TODO: Add your live Vercel/Netlify deployment link -->
 
 ---
 

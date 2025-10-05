@@ -98,4 +98,3 @@ Follow these steps to run PhilanChain locally:
 
 ---
 
-> _Empower transparency, trust, and impact in online giving — with PhilanChain._  

@@ -1,16 +1,15 @@
-PhilanChain: A Decentralized Crowdfunding dApp
+**PhilanChain: A Decentralized Crowdfunding dApp**
 A fully decentralized, transparent, and secure crowdfunding platform built on the Ethereum blockchain. PhilanChain leverages smart contracts to solve the "trust gap" in traditional charity, giving donors direct control and oversight over their contributions through a milestone-based fund release and voting system.
 
 [Live Demo Link Here] <!-- TODO: Add your live Vercel/Netlify deployment link -->
 
-<!-- TODO: Add a link to one of your beautiful UI screenshots -->
 
-The Problem It Solves
+**The Problem It Solves**
 Traditional charity platforms often lack transparency. Donors contribute funds with little to no visibility or control over how their money is spent, leading to a "trust gap" that can discourage contributions. Funds can be mismanaged, and administrative costs can be opaque.
 
 PhilanChain addresses this by putting the power back in the hands of the donors. Every donation, vote, and fund withdrawal is an immutable transaction on the blockchain, publicly verifiable by anyone.
 
-Key Features
+**Key Features**
 This dApp goes beyond simple donation tracking by implementing a full decentralized governance model:
 
 Milestone-Based Fund Release: Instead of releasing all funds at once, the campaign owner must create "milestones" for specific project goals. Funds are locked in the smart contract and can only be withdrawn for approved milestones.
@@ -25,7 +24,7 @@ Secure & Immutable: Built on a Solidity smart contract, ensuring that the rules 
 
 Automatic Refunds: If the fundraising goal is not met by the deadline, donors can securely withdraw their contributions directly from the smart contract.
 
-Built With
+**Built With**
 This project showcases a modern full-stack Web3 development approach:
 
 Smart Contract: Solidity
@@ -42,17 +41,17 @@ Wallet Integration: MetaMask
 
 Development Environment: Remix IDE for smart contract development
 
-Getting Started
+**Getting Started**
 To get a local copy up and running, follow these simple steps.
 
-Prerequisites
+**Prerequisites**
 You need to have npm (which comes with Node.js) and MetaMask installed in your browser.
 
 Node.js & npm
 
 MetaMask Extension
 
-Installation
+**Installation**
 Clone the repository:
 
 git clone https://github.com/Abyss12122/PhilanChain

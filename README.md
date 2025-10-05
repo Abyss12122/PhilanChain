@@ -94,7 +94,7 @@ Follow these steps to run PhilanChain locally:
    Acquire test Ether from [sepoliafaucet.com](https://sepoliafaucet.com/).
 
 4. **Connect & Donate:**  
-   Visit the live demo, connect your wallet, and start making a difference!
+   Visit the live demo, connect your wallet, and start donating!
 
 ---
 

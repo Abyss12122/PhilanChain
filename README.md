@@ -1,46 +1,90 @@
-# Getting Started with Create React App
+PhilanChain: A Decentralized Crowdfunding dApp
+A fully decentralized, transparent, and secure crowdfunding platform built on the Ethereum blockchain. PhilanChain leverages smart contracts to solve the "trust gap" in traditional charity, giving donors direct control and oversight over their contributions through a milestone-based fund release and voting system.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Live Demo Link Here] <!-- TODO: Add your live Vercel/Netlify deployment link -->
 
-## Available Scripts
+<!-- TODO: Add a link to one of your beautiful UI screenshots -->
 
-In the project directory, you can run:
+The Problem It Solves
+Traditional charity platforms often lack transparency. Donors contribute funds with little to no visibility or control over how their money is spent, leading to a "trust gap" that can discourage contributions. Funds can be mismanaged, and administrative costs can be opaque.
 
-### `npm start`
+PhilanChain addresses this by putting the power back in the hands of the donors. Every donation, vote, and fund withdrawal is an immutable transaction on the blockchain, publicly verifiable by anyone.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Key Features
+This dApp goes beyond simple donation tracking by implementing a full decentralized governance model:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Milestone-Based Fund Release: Instead of releasing all funds at once, the campaign owner must create "milestones" for specific project goals. Funds are locked in the smart contract and can only be withdrawn for approved milestones.
 
-### `npm test`
+Decentralized Donor Voting: Donors vote on whether to approve or reject a milestone withdrawal request. The voting power is weighted by the amount donated, ensuring that those who have contributed the most have the biggest say.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Campaign Updates: Beneficiaries can post real-time updates on their progress, providing donors with the information they need to make informed voting decisions.
 
-### `npm run build`
+Complete Transparency: Every donation and transaction is recorded on the blockchain and can be verified on a block explorer like Etherscan.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Secure & Immutable: Built on a Solidity smart contract, ensuring that the rules of the campaign cannot be changed once deployed.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Automatic Refunds: If the fundraising goal is not met by the deadline, donors can securely withdraw their contributions directly from the smart contract.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Built With
+This project showcases a modern full-stack Web3 development approach:
 
-### `npm run eject`
+Smart Contract: Solidity
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Blockchain: Ethereum (Sepolia Testnet)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Frontend: React, TypeScript
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Blockchain Interaction: Ethers.js
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Styling: Tailwind CSS
 
-## Learn More
+Wallet Integration: MetaMask
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Development Environment: Remix IDE for smart contract development
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Getting Started
+To get a local copy up and running, follow these simple steps.
+
+Prerequisites
+You need to have npm (which comes with Node.js) and MetaMask installed in your browser.
+
+Node.js & npm
+
+MetaMask Extension
+
+Installation
+Clone the repository:
+
+git clone https://github.com/Abyss12122/PhilanChain
+
+Navigate to the project directory:
+
+cd PhilanChain
+
+Install NPM packages:
+
+npm install
+
+Set up the Smart Contract:
+
+Deploy the Crowdfunding.sol contract to the Sepolia testnet using Remix IDE.
+
+Copy the deployed contract address and paste it into the contractAddress variable in src/App.tsx.
+
+Copy the contract's ABI from Remix and paste it into src/contractInfo.json.
+
+Run the application:
+
+npm start
+
+How to Use the dApp
+To interact with the live dApp, you'll need to configure your MetaMask wallet for the Sepolia testnet.
+
+Install MetaMask: Make sure you have the MetaMask browser extension installed.
+
+Switch to Sepolia: Open MetaMask and change the network from "Ethereum Mainnet" to "Sepolia Test Network".
+
+Get Free Test ETH: You'll need some test Ether to donate. You can get it for free from a public faucet like sepoliafaucet.com.
+
+Connect & Donate: Visit the live demo link, connect your wallet, and start making a difference!
+

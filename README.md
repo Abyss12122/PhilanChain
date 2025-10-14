@@ -71,7 +71,7 @@ Follow these steps to run PhilanChain locally:
    ```
 
 3. **Deploy the Smart Contract:**
-   - Deploy `Crowdfunding.sol` to the Sepolia testnet using [Remix IDE](https://remix.ethereum.org/).
+   - Deploy `PhilanChain.sol` to the Sepolia testnet using [Remix IDE](https://remix.ethereum.org/).
    - Copy the deployed contract address and paste it into the `contractAddress` variable in `src/App.tsx`.
    - Copy the contract's ABI and paste it into `src/contractInfo.json`.
 
